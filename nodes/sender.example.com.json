@@ -1,0 +1,8 @@
+{
+  "mqm": {
+    "mode": "server"
+  },
+  "run_list": [
+    "recipe[mqm]"
+  ]
+}

@@ -1,0 +1,6 @@
+name              'mqm'
+maintainer        'Aaron Addleman'
+maintainer_email  'aaronaddleman@gmail.com'
+license           ''
+description       ''
+version           '0.0.1'

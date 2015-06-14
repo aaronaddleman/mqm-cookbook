@@ -1,0 +1,11 @@
+{
+  "name": "mqm-sender",
+  "description": "To be the sender for the mq testing",
+  "chef_time": "role",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "run_list": [
+    "recipe[mqm]"
+  ]
+}
