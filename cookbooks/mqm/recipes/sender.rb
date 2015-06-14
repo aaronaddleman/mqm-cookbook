@@ -1,1 +1,1 @@
-Chef::Log.info("We are going to a sender!!")
+# Do stuff for the sender
