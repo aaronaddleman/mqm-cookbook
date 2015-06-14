@@ -6,6 +6,6 @@
 
   },
   "run_list": [
-    "recipe[mqm]"
+    
   ]
 }

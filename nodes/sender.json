@@ -1,0 +1,11 @@
+{
+  "name": "sender",
+  "default_attributes": {
+    "mqm": {
+      "mode": "sender"
+    }
+  },
+  "run_list": [
+    "recipe[mqm]"
+  ]
+}

@@ -31,3 +31,10 @@ node.mqm.mq_packages.each do |mqm|
     source "/tmp/mqm/#{mqm}"
   end
 end
+
+case node.mqm.mode
+when "sender"
+  include_recipe 'mqm::sender'
+when "receiver"
+  include_recipe 'mqm::receiver'
+end

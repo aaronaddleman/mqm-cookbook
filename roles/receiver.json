@@ -1,11 +1,11 @@
 {
-  "name": "mqm-sender",
+  "name": "mqm-receiver",
   "description": "To be the sender for the mq testing",
   "chef_time": "role",
   "json_class": "Chef::Role",
   "default_attributes": {
     "mqm": {
-      "mode": "sender"
+      "mode": "receiver"
     }
   },
   "run_list": [
